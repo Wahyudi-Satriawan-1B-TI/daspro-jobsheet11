@@ -90,6 +90,7 @@ public class Kafe25 {
 
         int totalSetelahDiskon = hitungTotalKeseluruhan(totalKeseluruhan, kodePromo);
 
+        System.out.println("======================== Rincian Tagihan ========================");
         System.out.println("\nTotal harga pesanan Anda sebelum diskon: Rp" + String.format("%,d", totalKeseluruhan));
         System.out.println("Total harga pesanan Anda setelah diskon: Rp" + String.format("%,d", totalSetelahDiskon));
         System.out.println("Terima kasih telah berkunjung, " + namaPelanggan + "!");
